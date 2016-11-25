@@ -1,0 +1,126 @@
+/*Gobal CSS*/
+body{font-family: 'Titillium Web', sans-serif; margin: 0;}
+
+.color-tag{color: #fff;}
+.black-color{color: #304761;}
+.gap-tag{padding-top: 3em; padding-bottom: 5em;}
+.btn-large{padding: 1.2em 3em; font-size: 12px; border-radius: 3px; letter-spacing: 1px;}
+.headline{font-weight: 600;}
+.headline-detail{font-size: 1.2em; font-weight: 600;}
+.headline-underline{display: block;width: 80px;border-top:3px solid #c8d7e5;margin: 20px auto;}
+/*Theme CSS*/
+
+/*CSS for Header Section*/
+header{background-color: #86509c;}
+header h1{font-size: 30px;font-weight: 600;}
+/*Button */
+.btn-warning {color: #fff;background-color: #eb7d4c;border-color: #eb7d4c;margin-bottom: 3em;box-shadow: 0px 3px 0px #c86a40;}
+/*Bootstrap CSS Modification Start*/
+.navbar-default {background-color: Transparent;}
+.navbar {min-height: 70px;margin-bottom: 20px;border: 0px;}
+.navbar-brand img {width: 70%;}
+.navbar-default .navbar-nav>li>a {color: #fff;padding-top: 20px;text-transform: uppercase;border-radius: 3px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #fff;background-color: #643a79;padding-top: 5px;padding-bottom: 5px;margin-top: 15px;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {color: #fff;background-color: #643a79; padding-top: 5px;padding-bottom: 5px;margin-top: 15px;}
+/*Bootstrap CSS Modification End*/
+/*CSS for Header Section*/
+
+/*CSS for Services Section*/
+.services{background-color: #18c2a5;}
+.services .headline-underline{border-top-color: #14a58c;}
+.caption h3{font-weight: 600;font-size: 20px;}
+/*Bootstrap CSS Modification*/
+.thumbnail {background-color: transparent;border: transparent;margin-top: 2.5em;}
+.services .thumbnail .caption {padding: 14px;color: #fff;margin-top: 20px;}
+.thumbnail>img {height: 140px;}
+/*CSS for Services Section*/
+
+/*CSS for Team Section*/
+.team{background-color: #e7f2f8;}
+.team .headline-underline{border-top-color: #c8d9e5;}
+.team .thumbnail .caption {padding: 14px;margin-top: 20px;}
+.team .thumbnail .caption h4{color: #30bae7;font-size: 16px;}
+.team .thumbnail .caption p{font-weight: 400;}
+/*Bootstrap CSS Modification*/
+.fa {font-size: 18px;padding: 7px;color: #fff;background-color: #bed1ed;width: 30px;height: 30px;border-radius: 50%;  margin-right: 5px;}
+/*CSS for Team Section*/
+/*CSS for Skill Section*/
+.skill .headline-underline{border-top-color: #dfe8ed;}
+/*CSS for Skill Section*/
+
+/*CSS for Portfolio Section */
+.portfolio{background-color: #ffdc98;}
+.portfolio .headline-underline{border-top-color: #e5c37f;}
+.portfolio ul{padding: 1.5em;}
+.font-tag{font-size: 16px;margin:1.2em;}
+.btn-success {color: #fff;background-color: #18c2a5;border-color: #18c2a5;margin-top: 3em;box-shadow: 0px 3px 0px #149f88;}
+/*Bootstrap Modified*/
+.portfolio li a {border-radius: 4px;background-color: #ebc884;color: #000;padding: 7px 22px;margin-right: 10px;font-weight:bold;}
+.portfolio li a:hover {background-color: #fff;text-decoration: none;}
+/*CSS for Portfolio Section */
+
+/*CSS for About US*/
+.about-us{background-color: #d74681;}
+.about-us .headline-underline{border-top-color: #b73c6d;}
+.comment{width: 81%;font-size: 16px;font-style: italic;line-height: 1.6;word-spacing: 1px;}
+.commenter{font-size: 20px;font-weight: 600;padding: 5px 0px;}
+.designation{color: #ffdc98;}
+/*CSS for About US*/
+
+/*CSS for GET IN Touch*/
+.message{background-color: #3c549a;}
+.message .headine-underline{border-top-color: #273a71 !important;}
+.message .form-control {color: #fff;background-color: #273a72;border: 1px solid #273a72;border-radius: 2px;}
+.btn-primary{color: #fff;background-color: #30bae8;border-color: #30bae8;margin-top: 3em;box-shadow: 0px 3px 0px #148fb8;}
+/*CSS for GET IN Touch*/
+
+/*CSS for footer section*/
+footer{padding: 1.5em 1em;font-size: 20px;background-color: #344b8f;}
+footer ul li a{color: #fff;font-weight: 600;}
+footer ul li a:hover{color: #30bae8;text-decoration: none;}
+/*CSS for footer section*/
+
+/*Media Queries*/
+@media (max-width:480px) { 
+	header h1 {
+	    font-size: 16px;}
+	.headline{
+		font-size: 22px;
+	}
+	.headline-detail {
+    	font-size: 14px;}    
+	.thumbnail {
+     	margin-top: 0px;}
+    .services .thumbnail .caption {
+    	padding: 0px;
+    	margin-top: 0px;}
+    .caption h3 {
+	    font-size: 14px;}	
+	.portfolio li a {
+	    padding: 4px 9px;}    
+	.message .headline-detail {
+   		width: 60%;
+   		margin: 0 auto;}
+   	footer .list-inline {
+    	width: 88%;
+    	margin: 0 auto;}	
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+	.caption h3 {
+	    font-size: 16px;}
+
+	.caption p{
+	    letter-spacing: 1px;
+	    font-size: 12px;}
+    .comment {
+	    width: 100%;
+	    font-size: 14px;}
+ }
+@media (min-width: 1200px) {
+	.comment {
+	    width: 100%; 
+	    font-size: 19px;}
+    .designation {
+    	font-size: 18px;}
+}
+/*Media Queries*/
